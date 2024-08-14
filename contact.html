@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>single bit it solution</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo2.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+<!-- Contact -->
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.4993019684!2d90.25487284317997!3d23.781067239145404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1722223642074!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+  <div class="row">
+<div class="contact-col">
+  <div>
+    <i class="fab fa-home"></i>
+    <span>
+      <h5>Shantinagor,ABC Buidling</h5>
+      <p>Dhaka, Bangladesh</p>
+    </span>
+  </div>
+  <div>
+    <i class="fab fa-phone"></i>
+    <span>
+      <h5>+88 01700000000</h5>
+      <p>Monday to Saturday, 10AM to 6PM</p>
+  </div>
+  <div>
+    <i class="fab fa-envelope-o"></i>
+    <span>
+      <h5>singlebit@gmil.com</h5>
+      <p>Email us your query</p>
+  </div>
+</div>
+
+<div class="contact-col">
+
+  <form action="form-handuler.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="email" name="email" placeholder="Enter email address" required>
+    <input type="text" name="subject" placeholder="Enter your subject" required>
+    <textarea rows="8" name="message" placeholder="Massage" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Send Massage</button>
+  </form>
+</div>
+
+</div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row1">
+          <div class="col">
+              <img src="images/logo2.png" alt="logo2">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ea perspiciatis cumque expedita</p>
+          </div>
+          <div class="col">
+              <h3>office <div class="underline"><span></span></div></h3>
+              <p>estern plus road</p>
+              <p>erstrenplus market</p>
+              <p>shantinagor, Dhaka, Bangladesh</p>
+              <p class="email-id">singlebititsolutions@gmail.com</p>
+              <h4>+880-170000000</h4>
+          </div>
+          <div class="col">
+              <h3>Links<div class="underline"><span></span></div></h3>
+              <ul>
+                  <li><a href="">Home</a></li> 
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">PRODUCT</a></li>
+                  <li><a href="">SERVICES</a></li>
+                  <li><a href="">CONTACT</a></li>
+              </ul>
+          </div>
+          <div class="col">
+              <h3>Newsletter <div class="underline"><span></span></div></h3>
+              <form>
+                  <i class="far fa-envelope"></i>
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit"><i class="fas fa-arrow-right"></i></button>
+              </form>
+              <div class="socal-icons">
+                  <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <p class="copyright">sbits copyright 2014-2024</p>
+  </footer>
+
+    <!-- javascprit for toggle -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

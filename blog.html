@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>single bit it solution</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo2.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>BLOG POST</h1>
+    </section>
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+         
+          <img src="images/missin.jfif">
+          <h2>Our Mission and Vision</h2>
+          
+          <p><b>Mission Statement</b>
+            At Single Bit IT Solutions, our mission is to empower businesses with innovative, efficient, and reliable technology solutions. We are committed to delivering exceptional IT services and products that drive digital transformation, enhance operational efficiency, and foster growth. Our goal is to provide our clients with cutting-edge technology and personalized support to meet their unique needs and help them succeed in a constantly evolving digital landscape.</p>
+            <br>
+            <p><b>Vision Statement</b>
+            Our vision is to become a leading IT solutions provider recognized for our innovation, excellence, and customer-centric approach. We aspire to create a future where businesses of all sizes can harness the full potential of technology to achieve their goals and transform their operations. Through continuous innovation and a deep understanding of our clients' needs, we aim to shape the future of IT and contribute to a more connected, efficient, and sustainable world.</p>
+<div class="comment-box">
+  <h3>Leave a Comment</h3>
+  <form class="comment-form">
+    <input type="text" placeholder="Enter Name">
+    <input type="email" placeholder="Enter Email">
+    <textarea rows="5" placeholder="Your Comment"></textarea>
+    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+  </form>
+</div>
+
+        </div>
+        <div class="bolg-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Busniess Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Sofware Development</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>2</span>
+          </div>
+          <div>
+            <span>Sofwaere Desing</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>Ai Product</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Bangladeshi Technology</span>
+            <span>44</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="row1">
+          <div class="col">
+              <img src="images/logo2.png" alt="logo2">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ea perspiciatis cumque expedita</p>
+          </div>
+          <div class="col">
+              <h3>office <div class="underline"><span></span></div></h3>
+              <p>estern plus road</p>
+              <p>erstrenplus market</p>
+              <p>shantinagor, Dhaka, Bangladesh</p>
+              <p class="email-id">singlebititsolutions@gmail.com</p>
+              <h4>+880-170000000</h4>
+          </div>
+          <div class="col">
+              <h3>Links<div class="underline"><span></span></div></h3>
+              <ul>
+                  <li><a href="">Home</a></li> 
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">PRODUCT</a></li>
+                  <li><a href="">SERVICES</a></li>
+                  <li><a href="">CONTACT</a></li>
+              </ul>
+          </div>
+          <div class="col">
+              <h3>Newsletter <div class="underline"><span></span></div></h3>
+              <form>
+                  <i class="far fa-envelope"></i>
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit"><i class="fas fa-arrow-right"></i></button>
+              </form>
+              <div class="socal-icons">
+                  <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <p class="copyright">sbits copyright 2014-2024</p>
+  </footer>
+
+    <!-- javascprit for toggle -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
